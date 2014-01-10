@@ -2,6 +2,7 @@ SteamFriendsMeter
 ================
 
 API service for Steam data to [Rainmeter](http://rainmeter.net)
+
 Data is returned in XML because it's easier to parse in RainMeter
 
 Author
