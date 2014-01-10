@@ -1,0 +1,40 @@
+{
+  "name": "steamFriendsMeter",
+  "version": "1.0.0",
+  "description": "API service for Steam data to Rainmeter",
+  "keywords": [
+    "Steam",
+    "steam",
+    "Node.js",
+    "node.js",
+    "nodejs",
+    "rainmeter",
+    "Rainmeter",
+    "RainMeter"
+  ],
+  "author": {
+    "name": "Adam Schodde",
+    "email": "sparky1010+github@gmail.com",
+    "url": "http://quailcity.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brutalhonesty/steamFriendsMeter.git"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "request": "*",
+    "js2xmlparser": "*"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "install": "cp ./settings.js.template ./settings.js"
+  }
+}
