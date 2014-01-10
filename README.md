@@ -1,7 +1,8 @@
 SteamFriendsMeter
 ================
 
-API service for Steam data to Rainmeter
+API service for Steam data to [Rainmeter](http://rainmeter.net)
+Data is returned in XML because it's easier to parse in RainMeter
 
 Author
 ------
@@ -21,6 +22,10 @@ npm install
 vim settings.js
 node server
 ```
+
+Demo
+-----
+http://steamfriends-brutalhonesty.rhcloud.com/ (If it's still alive!)
 
 Don't forget to edit your Rainmeter Skin .ini file to point to your new local/remote server
 
